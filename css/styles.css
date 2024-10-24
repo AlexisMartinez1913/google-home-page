@@ -22,8 +22,8 @@ body {
 }
 
 .text-link {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 .icon-link {
@@ -45,8 +45,10 @@ body {
 .text-link:hover {
     text-decoration: underline;
 }
+
 .nav-container {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -56,7 +58,7 @@ body {
 }
 .img-button img {
     width: 30px;
-    overflow: hidden;
     aspect-ratio: 1 / 1;
+    overflow: hidden;
     border-radius: 100%;
 }
